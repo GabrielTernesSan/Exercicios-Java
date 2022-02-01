@@ -1,16 +1,44 @@
 # EXERCÍCIOS JAVA
 
-- [ ] Criar uma classe Jogador que tenha as propriedades nome, gols, assistências. E os métodos adicionarGol e adicionarAssistencia que receba como argumento os quantidade de gols/assistências. Também criar dois métodos para ver o número de gols e assistências
+- [x] Criar uma classe Jogador que tenha as propriedades nome, gols, assistências. E os métodos adicionarGol e adicionarAssistencia que receba como argumento os quantidade de gols/assistências. Também criar dois métodos para ver o número de gols e assistências
 
-- [ ] Criar uma classe aluno que receba um nome, nota1, nota2 e nota3, onde o montante das notas podem chegar no máximo 100. Cria um método que retorne o nome do aluno, sua média, a maior e menor nota.
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_15)
 
-- [ ] Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostrar um
-  sumário do pedido conforme exemplo (próxima página). Nota: o instante do pedido deve ser
-  o instante do sistema: new Date().
+- [x] Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostrar um sumário do pedido conforme exemplo . 
+  
+  Nota: o instante do pedido deve ser o instante do sistema: new Date().
 
-- [ ] Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz de M linhas por N colunas contendo números inteiros,
-  podendo haver repetições. Em seguida, ler um número inteiro X que pertence à matriz. Para cada ocorrência de X, mostrar os valores à
-  esquerda, acima, à direita e abaixo de X, quando houver.
+  ````java
+  Enter cliente data:
+  Name: Alex Green
+  Email: alex@gmail.com
+  Birth date (DD/MM/YYYY): 15/03/1985
+  Enter order data:
+  Status: PROCESSING
+  How many items to this order? 2
+  Enter #1 item data:
+  Product name: TV
+  Product price: 1000.00
+  Quantity: 1
+  Enter #2 item data:
+  Product name: Mouse
+  Product price: 40.00
+  Quantity: 2
+  ORDER SUMMARY:
+  Order moment: 20/04/2018 11:25:09
+  Order status: PROCESSING
+  Client: Alex Green (15/03/1985) - alex@gmail.com
+  Order items:
+  TV, $1000.00, Quantity: 1, Subtotal: $1000.00
+  Mouse, $40.00, Quantity: 2, Subtotal: $80.00
+  Total price: $1080.00
+  ````
+  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_16)
+  
+- [x] Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz de M linhas por N colunas contendo números inteiros, podendo haver repetições. Em seguida, ler um número inteiro X que pertence à matriz. Para cada ocorrência de X, mostrar os valores à esquerda, acima, à direita e abaixo de X, quando houver.
+  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/blob/master/Solu%C3%A7%C3%B5es/Ex1_17.java)
 
 - [x] Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o mês com 30. (Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
 
