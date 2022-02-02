@@ -121,3 +121,12 @@
   - Logo após implementar a classe Apolice, implemente em uma classe chamada ApoliceTeste uma sequência de instruções para testar as funcionalidades da classe Apolice.
 
   [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_14)
+  
+- [x] Implemente uma função, definida como `validaComplexidade()`, que deve receber uma String e implementar algumas validações para garantir a complexidade de uma senha.
+
+  - Deve ter entre 8 e 32 caracteres;
+  - Deve ter, no mínimo, uma letra maiúscula, uma letra minúscula e um número;
+  - Não pode ter caractere de pontuação, acentuação ou espaço;
+  - Deve retornar 1 quando atender os pré-requisitos e 0 quando não atender.
+
+[Solução](https://github.com/GabrielTernesSan/Exercicios-Java/blob/master/Solu%C3%A7%C3%B5es/Ex1_18.java)
