@@ -3,7 +3,7 @@
 - [x] Escreva um programa que leia dois números e exiba mensagem informando o valor do maior número e o valor do
   menor número. Se os dois números forem iguais, o programa deve exibir mensagem informando este fato.
 
-  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_19)
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_19.java)
 
   
   
@@ -11,7 +11,7 @@
   entre 0 (zero) e 9 (nove). Caso o valor fornecido esteja dentro da faixa, apresentar a mensagem “valor válido”.
   Caso contrário, apresentar a mensagem “valor inválido”.
 
-  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_20)
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_20.java)
 
   
   
@@ -20,7 +20,7 @@
   um valor válido, o programa deve verificar cada código em separado para determinar seu valor por extenso, ou
   seja, apresentar a mensagem “um”, ”dois” ou “três”. (Utilizar o comando Switch).
 
-  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_21)
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_21.java)
 
   
   
@@ -30,7 +30,7 @@
   contrário, o triângulo será escaleno. Caso os lados fornecidos não caracterizarem um triângulo, avisar a
   ocorrência.
 
-  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_22)
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_22.java)
 
   
   
@@ -38,14 +38,14 @@
   variável (se o valor digitado não é válido, mostrar mensagem e ler novamente). Exibe o menor valor lido
   multiplicado pelo maior e o maior valor dividido pelo menor.
 
-  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_23)
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_23.java)
 
   
   
 - [x] Faça um programa que leia um número inteiro e mostre uma mensagem na tela indicando se este número é
   positivo ou negativo. Pare a execução do programa quando o usuário requisitar.
 
-  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_24)
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_24.java)
 
   
   
