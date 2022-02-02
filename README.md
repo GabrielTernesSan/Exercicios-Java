@@ -49,19 +49,23 @@
 
   
   
-- [ ] Faça um programa que leia um número. Se positivo armazene-o em A, se for negativo, em B. No final mostrar o
+- [x] Faça um programa que leia um número. Se positivo armazene-o em A, se for negativo, em B. No final mostrar o
   resultado.
 
-  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_25.java)
 
-- [ ] Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:
+  
+  
+- [x] Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:
   1 – Adição
   2 – Subtração
   3 – Multiplicação
   4 – Divisão
 
-  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_26.java)
 
+  
+  
 - [ ] Escreva um programa que leia dois números inteiros e apresente as opções para usuário escolher o que deseja
   realizar:
   1 – Verificar se um dos números lidos é ou não múltiplo do outro
