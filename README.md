@@ -66,48 +66,62 @@
 
   
   
-- [ ] Escreva um programa que leia dois números inteiros e apresente as opções para usuário escolher o que deseja
+- [x] Escreva um programa que leia dois números inteiros e apresente as opções para usuário escolher o que deseja
   realizar:
   1 – Verificar se um dos números lidos é ou não múltiplo do outro
   2 – Verificar se os dois números lidos são pares
   3 – Verificar se a média dos dois números é maior ou igual a 7.
   4 – Sair
 
-  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_27.java)
 
-- [ ] Tendo como dados de entrada a altura e o sexo de uma pessoa, faça um programa que calcule seu peso ideal,
+  
+  
+- [x] Tendo como dados de entrada a altura e o sexo de uma pessoa, faça um programa que calcule seu peso ideal,
   utilizando as seguintes fórmulas: (h = altura)
 
   - Para homens: (72.7*h) - 58
   - Para mulheres: (62.1 *h) - 44.
 
-  
-
-- [ ] Escreva um programa que exiba os números de 1 a 100 na tela em ordem decrescente.
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_28.java)
 
   
+  
+- [x] Escreva um programa que exiba os números de 1 a 100 na tela em ordem decrescente.
 
-- [ ] Escreva um programa que leia:
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_29.java)
+
+  
+
+- [x] Escreva um programa que leia:
 
   - a quantidade de números que deverá processar;
   - os números que deverá processar,e calcule e exiba, para cada número a ser processado o seu fatorial.
     Lembrete: O fatorial de um número N é dado pela fórmula: N! = 1 * 2 * 3 * 4 * 5 * ... * N
 
-  
-
-- [ ] Faça um programa que gera e escreve os números ímpares dos números lidos entre 100 e 200.
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_30.java)
 
   
 
-- [ ] Faça um programa que exiba os números de 1 até 2000.
+- [x] Faça um programa que gera e escreve os números ímpares dos números lidos entre 100 e 200.
+
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_31.java)
 
   
 
-- [ ] Faça um programa para imprimir uma tabuada.
+- [x] Faça um programa que exiba os números de 1 até 2000.
+
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_32.java)
 
   
 
-- [ ] Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos ímpares a partir do número informado pelo usuário menor que 10 e maior que zero.
+- [x] Faça um programa para imprimir uma tabuada.
+
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_33.java)
+
+  
+
+- [ ] Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos ímpares a partir do número informado pelo usuário menor que 50 e maior que zero.
 
   
 
