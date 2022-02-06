@@ -121,35 +121,37 @@
 
   
 
-- [ ] Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos ímpares a partir do número informado pelo usuário menor que 50 e maior que zero.
+- [x] Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos ímpares a partir do número informado pelo usuário.
+
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_34.java)
 
   
 
-- [ ] Escreva um programa que calcule e exiba a média da nota dos alunos de uma turma em uma prova. O número de
-  alunos é desconhecido. Os dados de um aluno são: número de matrícula e a sua nota na prova em questão.
-
-  
-
-- [ ] Escreva um programa que leia um conjunto de números positivos e exiba o menor e o maior. Suporemos que o
+- [x] Escreva um programa que leia um conjunto de números positivos e exiba o menor e o maior. Suporemos que o
   número de elementos deste conjunto não é conhecido, e que um número negativo será utilizado para sinalizar o
   fim dos dados.
 
-  
-
-- [ ] Faça um programa que conte de 1 até 100 e a cada múltiplo de 10 exiba uma mensagem: "Múltiplo de 10".
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_35.java)
 
   
+  
+- [x] Faça um programa que conte de 1 até 100 e a cada múltiplo de 10 exiba uma mensagem: "Múltiplo de 10".
 
-- [ ] Faça um programa que leia 10 valores inteiros e positivos e:
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_36.java)
+
+  
+
+- [x] Faça um programa que leia 10 valores inteiros e positivos e:
 
   - Encontre o maior valor
   - Encontre o menor valor
   - Calcule a média dos números lidos
 
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_37.java)
+
   
 
-- [ ] Faça um programa de conversão de base numérica. O programa deverá apresentar uma tela de entrada com as
-  seguintes opções:
+- [x] O programa deverá apresentar uma tela de entrada com as seguintes opções:
   1 – Adição
   2 – Subtração
   3 – Multiplicação
@@ -159,18 +161,22 @@
   programa deve exibir o resultado da opção indicada pelo usuário e perguntar ao usuário se ele deseja voltar ao
   menu principal. Caso a resposta seja ´S´ ou ´s´, deverá voltar ao menu, caso contrário deverá encerrar o
   programa.
-
   
-
-- [ ] Faça um programa que leia as variáveis C e N, respectivamente código e número de horas trabalhadas de um
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_38.java)
+  
+  
+  
+- [x] Faça um programa que leia as variáveis C e N, respectivamente código e número de horas trabalhadas de um
   operário. E calcule o salário sabendo-se que ele ganha R$ 10,00 por hora. Quando o número de horas exceder a
   50, calcule o excesso de pagamento armazenando-o na variável E, caso contrário zerar tal variável. A hora
   excedente de trabalho vale R$ 20,00. No final do processamento imprimir o salário total e o salário excedente. O
   programa só deve parar de rodar quando o usuário responder "S" na seguinte pergunta, "Deseja encerrar o
   programa?".
 
-  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_39.java)
 
+  ******************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+  
 - [ ] Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar,
   e se é positivo ou negativo. O programa só deve parar de rodar quando o usuário responder "S" na seguinte
   pergunta, "Deseja encerrar o programa?" .
@@ -655,6 +661,9 @@
   - Deve retornar 1 quando atender os pré-requisitos e 0 quando não atender.
 
 [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/blob/master/Solu%C3%A7%C3%B5es/Ex1_18.java)
+
+- [ ] Escreva um programa que calcule e exiba a média da nota dos alunos de uma turma em uma prova. O número de
+  alunos é desconhecido. Os dados de um aluno são: número de matrícula e a sua nota na prova em questão.
 
 - [ ] Uma universidade deseja modificar a estrutura de sua base de dados. Para isso, ela quer construir a hierarquia das pessoas que frequentam o estabelecimento com a ajuda de uma representação do tipo OO (orientado objeto). A universidade deseja conservar o nome de todas as pessoas e dispõe de uma função que lhe permite de inicializar e de modificar este membro dado. A universidade é frequentada por estudantes e empregados. As fichas dos estudantes devem conter seu nome, seu estatuto (aluno especial, tempo parcial, tempo integral) e sua média. Além do mais, é necessário prever funções que poderão modificar o estatuto e a média. Os empregados são divididos em duas categorias: o corpo docente (demonstrador, monitor, professor) e o discente (escritório e manutenção). Para todos os empregados, nós devemos prever um campo salário e uma função que permita fixar os salários. Escreva, em linguagem JAVA, as declarações das classes que permitem representar esta hierarquia.
 
