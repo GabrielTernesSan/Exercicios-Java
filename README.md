@@ -177,13 +177,15 @@
 
   ******************************************************************************************************************************************************************************************************************************************************************************************************************************************************
   
-- [ ] Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar,
+- [x] Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar,
   e se é positivo ou negativo. O programa só deve parar de rodar quando o usuário responder "S" na seguinte
   pergunta, "Deseja encerrar o programa?" .
 
-  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_40.java)
 
-- [ ] A Secretaria de Meio Ambiente que controla o índice de poluição mantém 03 grupos de indústrias que são
+  
+  
+- [x] A Secretaria de Meio Ambiente que controla o índice de poluição mantém 03 grupos de indústrias que são
   altamente poluentes do meio ambiente. O índice de poluição aceitável varia de 0,05 até 0,25. Se o índice sobe
   para 0,3 as indústrias do 1º grupo são intimadas a suspenderem suas atividades, se o índice crescer para 0,4 as
   industrias do 1º e 2º grupo são intimadas a suspenderem suas atividades, se o índice atingir 0,5 todos os grupos
@@ -191,15 +193,19 @@
   emita a notificação adequada aos diferentes grupos de empresas. O algoritmo só deve parar de rodar quando o
   usuário responder "S" na seguinte pergunta, "Deseja encerrar o programa?".
 
-  
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_41.java)
 
-- [ ] Faça um programa que dada a idade de um nadador, classifique-o em uma das seguintes categorias:
+  
+  
+- [x] Faça um programa que dada a idade de um nadador, classifique-o em uma das seguintes categorias:
 
   - Infantil A = 5 a 7 anos
   - Infantil B = 8 a 11 anos
   - Juvenil A = 12 a 13 anos
   - Juvenil B = 14 a 17 anos
   - Adultos = Maiores de 18 anos
+
+  [Solução](https://github.com/GabrielTernesSan/Exercicios-Java/tree/master/Solu%C3%A7%C3%B5es/Ex1_42.java)
 
   
 
