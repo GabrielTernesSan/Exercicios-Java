@@ -711,7 +711,75 @@
 
 - [ ] Implementar uma classe Data que deve possuir como características os atributos dia, mês e ano (todas do tipo inteiro). Nesta classe além dos métodos construtores, getters, setters e toString, deverá ser implementado o método validarData (int, int, int): boolean que deverá verificar se as informações passadas por parâmetros é verdadeira ou não. Este método deverá inclusive verificar se é ano bissexto. O método toString deverá retornar uma string no seguinte formato “dia/mês/ano”, como por exemplo “05/março/2015”
 
-  
+
+# CWI
+
+ - [ ] A partir de uma sequência de valores em uma array, você deverá desenvolver um algoritmo que identifique combinações possíveis que geram um quadrado perfeito.
+OBJETIVO
+Como entrada, será fornecido um array de valores distintos inteiros positivos. Você deverá retornar a soma total dos valores de cada combinação possível entre um valor x do array e outro valor y, em que x > y e x + y é um quadrado perfeito, isto é, possui um número inteiro como raiz quadrada.
+EXEMPLO
+-	Para a entrada array = [5, 2, 1], temos a saída 0, pois não temos combinações possíveis que geram um quadrado perfeito.
+-	Para a entrada array = [3, 1, 2], temos a saída 4, pois temos a combinação [3, 1] que gera um quadrado perfeito, totalizando 4.
+-	Para a entrada array = [7, 9, 12, 4, 2, 5, 8], temos a saída 50, pois temos as combinações [7, 2], [9, 7], [12, 4], [5, 4] que geram quadrados perfeitos, totalizando 50 ao somar estes valores.
+
+- [ ] Em Ciência de Dados, diferentes métricas podem ser aplicadas para medir a performance de um modelo preditivo. Dentre eles, uma métrica frequentemente utilizada é a Mean Absolute Erros (MAE), que calcula a diferença absoluta média entre os valores estimados pelo modelo e os valores reais. Ou seja, quanto menor o MAE calculado para o modelo, maior tende a ser a sua capacidade de previsão. Considerando um modelo treinado para prever o valor de um imóvel em determinada cidade com base em suas características, você deverá criar um método que calcule a sua performance através do MAE.
+OBJETIVO
+Como entrada, será informado um array de valores decimais representando as previsões do modelo para um determinado grupo de casas, e, também um array contendo os valores reais das respectivas casas. O seu algoritmo deverá, para cada previsão do modelo, calcular a diferença absoluta em relação ao valor real da casa. Ao final, o método deve retornar a média dos erros calculados.
+EXEMPLO
+-	Para a entrada previsoes = [250100.0] e valoresReais = [250100.0], temos como retorno 0.0.
+-	Para a entrada previsoes = [115200.0] e valoresReais = [116500.0], temos como retorno 1300.0.
+-	Para a entrada previsoes = [547541.50, 77952.00, 1158657.00, 447550.00] e valoresReais = [537800.50, 78790.00, 1159500.00, 447550.00], temos como retorno 2855.5.
+
+- [ ] Ao comprar uma ação na bolsa de valores, você se torna acionista parcial da empresa, ganhando direito a uma parte dos lucros: os dividendos. O dividendo é uma porcentagem da ação original e é somado a ela, cada investidor recebe um valor referente à quantidade de ações que possui.
+Para esta questão utilize as seguintes regras:
+-	A cada ano, o valor inicial da ação sofre um reajuste de +1
+-	A cada ano, os dividendos pagos sofrem um reajuste de +0,005
+OBJETIVO:
+Crie um algoritmo que faça a projeção do lucro de um investidor na bolsa de valores, caso ele reinvista todo o capital recebido através dos dividendos pagos pela ação.
+Parâmetros de entrada:
+-	Investimento mensal (valor em reais que o investidor compra todo mês)
+-	Valor inicial da ação (preço da ação, este valor é acrescido todo ano conforme a regra 1)
+-	Valor inicial dos dividendos pagos por ação (porcentagem de lucro que esta ação rende ao investidor, este valor é acrescido todo ano conforme a regra 2)
+-	Duração do investimento em anos
+Saída esperada:
+-	Valor das ações liquidadas no fim do período
+EXEMPLOS:
+Para as entradas = 1000, 10, 0.10, 1 temos a saída 12120:
+-	Investimento mensal * 12 meses / preço da ação = 1200 ações
+-	1200 ações * valor dos dividendos = R$120,00
+-	Comprando mais ações com estes R$120,00, temos 12 novas ações.
+-	Total no ano: 1200 + 12 = 1212 ações
+-	Liquidando as ações (vendendo), temos 1212 * preço da ação = R$12120,00.
+Para as entradas = 1000, 10, 0.10, 2 temos a saída 2313.32:
+-	1212 ações no primeiro ano de investimento, calculado igual ao exemplo anterior.
+-	Para o segundo ano:
+-	Investimento mensal * 12 meses / preço da ação = 1090.90 ações
+-	1090.90 ações * valor dos dividendos = R$114.54
+-	Comprando mais ações com estes R$114.54, temos 10.41 novas ações.
+-	Total no ano: 1090.90 + 10.41 = 1101.32
+-	Somando com o ano anterior: 1212 + 1101.32 = 2313.32 ações
+-	Liquidando as ações (vendendo), temos: 2313.32 * preço da ação = R$25446.54
+Para as entradas = 2000, 3, 0.05, 15 temos a saída 3089190.46.
+
+- [ ] A Aliança Rebelde e o Império Galáctico travaram uma batalha sobre o planeta de Endor! Ambos enviaram a mesma quantidade de naves, porém cada um tem suas naves específicas: os Rebeldes com suas X-Wings e o Império com seus TIE Fighters. Neste cenário, os X-Wings têm a vantagem quando estão mais distantes dos seus adversários e o contrário também se aplica aos TIE Fighters, que têm a vantagem quando estão mais próximos. Desta forma, temos a regra:
+-	Se a distância absoluta entre o X-Wing e o TIE Fighter for menor ou igual a 5, o X-Wing é destruído. Caso contrário, o TIE Fighter é destruído.
+Lembrando que a fórmula utilizada no cálculo de distância entre dois pontos é:
+
+![image](https://user-images.githubusercontent.com/73451261/226899413-ff2c3936-a8fd-4460-bd0a-110c9acc98c8.png)
+ 
+Ao final da batalha, o vencedor será aquele que destruiu o maior número de naves do oponente. Caso haja um empate, não teremos um vencedor definitivo. 
+OBJETIVO:
+Faça um algoritmo que retorne o vencedor (ou o empate, caso aconteça) da Guerra nas Estrelas entre o Império Galáctico e a Aliança Rebelde. Seu algoritmo deve receber como parâmetro duas matrizes formadas pelos arrays de inteiros que representam as coordenadas das naves, sendo que a primeira matriz representa os X-Wings dos Rebeldes e a segunda os TIE Fighters do Império. Cada nave irá disputar com a nave adversária localizada no mesmo índice (rebeldes[0] contra imperio[0], rebeldes[1] contra imperio[1] e assim por diante). Usando a regra definida na explicação, teremos o vencedor de cada disputa entre naves. Ao final das disputas, seu algoritmo deve retornar uma string com o vencedor (aquele que destruiu mais naves), podendo ser uma das opções: “Império Galáctico”, “Aliança Rebelde” e “Empate”.
+EXEMPLOS:
+-	Para a entrada rebeldes = [[0, 0], [1, 1], [2, 2]] e imperio = [[0, 10], [1, 5], [10, 10]], temos a saída “Aliança Rebelde” pois derrotou mais naves que o Império (2x1);
+- A distância entre [0, 0] e [0, 10] é 10, logo o X-Wing vence a disputa;
+- A distância entre [1, 1] e [1, 5] é 4, logo o TIE Fighter vence a disputa.
+-	Para a entrada rebeldes = [[0, 0]] e imperio = [[0, -5]], temos a saída “Império Galáctico”, pois derrotou mais naves que os Rebeldes (0x1);
+- A distância entre [0, 0] e [0, -5] é 5, logo o TIE Fighter vence a disputa.
+-	Para a entrada rebeldes = [[11, 26], [21, 13]] e imperio = [[15, 25], [7, 16]], temos a saída “Empate”, pois ambos destruíram a mesma quantidade de naves (1x1);
+- A distância entre [11, 26] e [15, 25] é 4,12, logo o TIE Fighter vence a disputa;
+- A distância entre [21, 13] e [7, 16] é 14,31, logo o X-Wing vence a disputa.
+
 
 - [ ] Faça a soma dos elementos repetidos entre arrays (vetores) numéricos. Crie um algoritmo que recebe dois vetores numéricos, arrA e arrB, e retorna a soma dos elementos repetidos entre ambos, como no exemplo a seguir:
 
